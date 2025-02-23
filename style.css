@@ -1,136 +1,141 @@
+/* 設定 body 的基本樣式 */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    text-align: center;
-    padding: 20px;
+    font-family: Arial, sans-serif; /* 使用 Arial 字體，若 Arial 不可用則使用 sans-serif */
+    background-color: #f5f5f5; /* 背景顏色為淺灰色 */
+    text-align: center; /* 文字置中對齊 */
+    padding: 20px; /* 設定內邊距，上下左右皆為 20px */
 }
 
+/* 設定 h1 標題的樣式 */
 h1 {
-    color: #2c3e50;
+    color: #40322d; /* 文字顏色為深棕色 */
 }
 
+/* 設定 p 段落的樣式 */
 p {
-    color: #34495e;
+    color: #5d3e3f; /* 文字顏色為棕色 */
 }
 
+/* 設定導覽列 nav 的樣式 */
 nav {
-    background-color: #2c3e50;
-    padding: 10px 0;
+    background-color: #40322d; /* 背景顏色為深棕色 */
+    padding: 10px 0; /* 上下內邊距為 10px，左右內邊距為 0 */
 }
 
+/* 設定導覽列 ul 的樣式 */
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+    list-style: none; /* 移除列表符號 */
+    padding: 0; /* 移除內邊距 */
+    margin: 0; /* 移除外邊距 */
+    text-align: center; /* 文字置中對齊 */
 }
 
+/* 設定導覽列 li 的樣式 */
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline; /* 將 li 元素水平排列 */
+    margin: 0 15px; /* 左右外邊距為 15px */
 }
 
+/* 設定導覽列 a (連結) 的樣式 */
 nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
+    text-decoration: none; /* 移除超連結的底線 */
+    color: white; /* 文字顏色為白色 */
+    font-size: 18px; /* 文字大小為 18px */
 }
 
+/* 設定橫幅圖片的樣式 */
 .banner {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    display: block;
+    width: 100%; /* 寬度為 100% */
+    max-height: 300px; /* 最大高度為 300px */
+    object-fit: cover; /* 圖片等比例縮放以填滿容器，可能會裁切部分圖片 */
+    display: block; /* 讓圖片以 block 元素顯示，避免下方元素產生間隙 */
 }
 
+/* 設定導覽列 a (連結) 的 hover 效果 */
 nav ul li a:hover {
-    color: #f39c12;
+    color: #2c3e50; /* 滑鼠移過時，文字顏色變為深藍色 */
 }
 
+/* 設定新聞區塊的樣式 */
 .news {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    width: 80%;
-    text-align: center;
+    background-color: #f8f9fa; /* 背景顏色為淺灰色 */
+    padding: 20px; /* 內邊距為 20px */
+    border-radius: 10px; /* 邊框圓角為 10px */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* 設定陰影效果 */
+    margin: 20px auto; /* 上下外邊距為 20px，左右自動調整（置中） */
+    width: 80%; /* 寬度為 80% */
+    text-align: center; /* 文字置中對齊 */
 }
+
+/* 設定新聞區塊標題 h2 的樣式 */
 .news h2 {
-    color: #2c3e50;
+    color: #40322d; /* 文字顏色為深棕色 */
 }
+
+/* 設定新聞區塊 ul 的樣式 */
 .news ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* 移除列表符號 */
+    padding: 0; /* 移除內邊距 */
 }
+
+/* 設定新聞區塊 li 的樣式 */
 .news ul li {
-    font-size: 18px;
-    margin: 10px 0;
+    font-size: 18px; /* 文字大小為 18px */
+    margin: 10px 0; /* 上下外邊距為 10px */
 }
 
-.about-content {
-    text-align: center;
-    margin: 30px auto;
-    max-width: 80%;
+/* 設定關於內容區塊和聯絡表單容器的樣式 */
+.about-content,
+.contact-form {
+    text-align: center; /* 文字置中對齊 */
+    margin: 30px auto; /* 上下外邊距為 30px，左右自動調整（置中） */
+    max-width: 80%; /* 最大寬度為 80% */
 }
+
+/* 設定關於圖片的樣式 */
 .about-img {
-    width: 150px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    width: 150px; /* 寬度為 150px */
+    border-radius: 50%; /* 邊框圓角為 50%，使圖片變為圓形 */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* 設定陰影效果 */
+    margin-bottom: 20px; /* 下方外邊距為 20px */
 }
 
-
-
-/* 表單整體 */
-form {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    margin: auto;
-    border-left: 5px solid #8B5E3C; /* 棕色左邊框 */
+/* 設定輸入框和文字區域的樣式 */
+input,
+textarea,
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* 寬度為 100% */
+    padding: 10px; /* 內邊距為 10px */
+    margin: 10px 0; /* 上下外邊距為 10px */
+    border: 1px solid #ccc; /* 邊框顏色為淺灰色 */
+    border-radius: 5px; /* 邊框圓角為 5px */
+    font-size: 16px; /* 文字大小為 16px */
+    transition: border-color 0.3s; /* 邊框顏色變換的過渡效果 */
 }
 
-/* 輸入框 */
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    border: 2px solid #A67B5B; /* 棕色邊框 */
-    border-radius: 5px;
-    font-size: 16px;
-    transition: border-color 0.3s;
+/* 設定按鈕的樣式 */
+button,
+.contact-form button {
+    background: #2E7D32; /* 背景顏色為深綠色 */
+    color: white; /* 文字顏色為白色 */
+    padding: 12px 20px; /* 內邊距為 12px (上下) 20px (左右) */
+    border: none; /* 移除邊框 */
+    border-radius: 5px; /* 邊框圓角為 5px */
+    cursor: pointer; /* 滑鼠游標變為手指形狀 */
+    font-size: 16px; /* 文字大小為 16px */
+    transition: background 0.3s; /* 背景顏色變換的過渡效果 */
 }
 
-/* 當輸入框被點選時變色 */
-input:focus, textarea:focus {
-    border-color: #6F4E37; /* 深棕色 */
-    outline: none;
+/* 設定按鈕 hover 效果 */
+button:hover,
+.contact-form button:hover {
+    background: #45a049; /* 滑鼠移過時，背景顏色變為稍淺的綠色 */
 }
 
-/* 按鈕 */
-button {
-    background: #2E7D32; /* 深綠色 */
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background 0.3s;
-}
-
-/* 按鈕懸停效果 */
-button:hover {
-    background: #4CAF50; /* 變成淺綠色 */
-}
-
-/* 表單標題 */
+/* 設定表單標題 h2 的樣式 */
 h2 {
-    color: #8B5E3C; /* 棕色標題 */
-    text-align: center;
-    margin-bottom: 15px;
+    color: #8B5E3C; /* 文字顏色為棕色 */
+    text-align: center; /* 文字置中對齊 */
+    margin-bottom: 15px; /* 下方外邊距為 15px */
 }
