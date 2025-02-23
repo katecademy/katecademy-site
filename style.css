@@ -163,7 +163,7 @@ h2 {
 
 /* 標題樣式 */
 .info-box h3 {
-    color: #a6baae; /* 綠色標題 */
+    color: 	#006000; /* 綠色標題 */
     margin-bottom: 10px;
 }
 
@@ -178,5 +178,63 @@ h2 {
 /* 文字樣式 */
 .info-box p {
     line-height: 1.6;
-    text-align: justify; /* 文字左右對齊 */
+    text-align: center; /* 文字置中對齊 */
+}
+
+/* 整體課程區塊容器 */
+.courses-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* 每個類別標題 */
+.course-category h2 {
+    color: #40322d;
+    font-size: 24px;
+    margin-top: 20px;
+    border-bottom: 2px solid #40322d;
+    padding-bottom: 5px;
+}
+
+/* 讓課程卡片可以並排 */
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* 課程卡片樣式 */
+.course-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 320px;
+}
+
+/* 課程卡片標題 */
+.course-card h3 {
+    color: #40322d;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* 課程卡片內的列表 */
+.course-card ul {
+    color: #5d3e3f;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* 確保小螢幕時會換行 */
+@media (max-width: 768px) {
+    .course-grid {
+        flex-direction: column;
+        align-items: center;
+    }
 }
