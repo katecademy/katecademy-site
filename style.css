@@ -67,3 +67,15 @@ nav ul li a:hover {
     font-size: 18px;
     margin: 10px 0;
 }
+
+.about-content {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 80%;
+}
+.about-img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
