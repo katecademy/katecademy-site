@@ -229,6 +229,7 @@ h2 {
     color: #5d3e3f;
     list-style-type: disc;
     padding-left: 20px;
+    text-align: left; /* 文字置左對齊 */
 }
 
 /* 確保小螢幕時會換行 */
