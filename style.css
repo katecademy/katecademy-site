@@ -157,13 +157,13 @@ h2 {
     background: #F9F9F9; /* 淺灰色背景，讓區塊更明顯 */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
     border-left: 5px solid #8B5E3C; /* 棕色邊框 */
 }
 
 /* 標題樣式 */
 .info-box h3 {
-    color: #2E7D32; /* 綠色標題 */
+    color: #7ad9bd; /* 綠色標題 */
     margin-bottom: 10px;
 }
 
@@ -171,9 +171,12 @@ h2 {
 .info-box ul {
     list-style-type: disc;
     padding-left: 20px;
+    color: #5d3e3f; /* 文字顏色為棕色 */
+    text-align: left; /* 文字置左對齊 */
 }
 
 /* 文字樣式 */
 .info-box p {
     line-height: 1.6;
+    text-align: left; /* 文字置左對齊 */
 }
