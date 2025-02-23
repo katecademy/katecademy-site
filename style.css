@@ -80,30 +80,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.contact-form {
-    text-align: center;
-    margin: 30px auto;
-    max-width: 80%;
-}
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-.contact-form button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.contact-form button:hover {
-    background-color: #45a049;
-}
+
 
 /* 表單整體 */
 form {
