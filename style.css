@@ -163,7 +163,7 @@ h2 {
 
 /* 標題樣式 */
 .info-box h3 {
-    color: 	#006000; /* 綠色標題 */
+    color: #006000; /* 綠色標題 */
     margin-bottom: 10px;
 }
 
@@ -219,7 +219,7 @@ h2 {
 
 /* 課程卡片標題 */
 .course-card h3 {
-    color: #40322d;
+    color: #006000; /* 綠色標題 */
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -227,9 +227,9 @@ h2 {
 /* 課程卡片內的列表 */
 .course-card ul {
     color: #5d3e3f;
+    text-align: left; /* 文字置左對齊 */
     list-style-type: disc;
     padding-left: 20px;
-    text-align: left; /* 文字置左對齊 */
 }
 
 /* 確保小螢幕時會換行 */
