@@ -163,7 +163,7 @@ h2 {
 
 /* 標題樣式 */
 .info-box h3 {
-    color: #7ad9bd; /* 綠色標題 */
+    color: #a6baae; /* 綠色標題 */
     margin-bottom: 10px;
 }
 
@@ -178,5 +178,5 @@ h2 {
 /* 文字樣式 */
 .info-box p {
     line-height: 1.6;
-    text-align: left; /* 文字置左對齊 */
+    text-align: justify; /* 文字左右對齊 */
 }
