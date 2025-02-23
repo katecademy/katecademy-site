@@ -46,3 +46,24 @@ nav ul li a {
 nav ul li a:hover {
     color: #f39c12;
 }
+
+.news {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+.news h2 {
+    color: #2c3e50;
+}
+.news ul {
+    list-style: none;
+    padding: 0;
+}
+.news ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
