@@ -1,6 +1,6 @@
 /* 設定 body 的基本樣式 */
 body {
-    font-family: Arial, sans-serif; /* 使用 Arial 字體，若 Arial 不可用則使用 sans-serif */
+    font-family: Noto Sans, Arial; /* 使用 Noto Sans 字體，若 Noto Sans 不可用則使用 Arial */
     background-color: #f5f5f5; /* 背景顏色為淺灰色 */
     text-align: center; /* 文字置中對齊 */
     padding: 20px; /* 設定內邊距，上下左右皆為 20px */
@@ -8,17 +8,27 @@ body {
 
 /* 設定 h1 標題的樣式 */
 h1 {
-    color: #40322d; /* 文字顏色為深棕色 */
+    color: #2F7D63; /* 文字顏色為深薄荷綠色 */
+}
+
+/* 設定 h2 標題的樣式 */
+h2 {
+    color: #4BAA90; /* 文字顏色為淡薄荷綠色 */
+}
+
+/* 設定 h3 標題的樣式 */
+h3 {
+    color: #A38E7C; /* 文字顏色為淡棕色 */
 }
 
 /* 設定 p 段落的樣式 */
 p {
-    color: #5d3e3f; /* 文字顏色為棕色 */
+    color: #3E3E3E; /* 文字顏色為深灰色 */
 }
 
 /* 設定導覽列 nav 的樣式 */
 nav {
-    background-color: #40322d; /* 背景顏色為深棕色 */
+    background-color: #5A3E2B; /* 背景顏色為柔和的深棕色 */
     padding: 10px 0; /* 上下內邊距為 10px，左右內邊距為 0 */
 }
 
@@ -39,7 +49,7 @@ nav ul li {
 /* 設定導覽列 a (連結) 的樣式 */
 nav ul li a {
     text-decoration: none; /* 移除超連結的底線 */
-    color: white; /* 文字顏色為白色 */
+    color: #FAF3E0; /* 文字顏色為杏色 */
     font-size: 18px; /* 文字大小為 18px */
 }
 
@@ -51,9 +61,9 @@ nav ul li a {
     display: block; /* 讓圖片以 block 元素顯示，避免下方元素產生間隙 */
 }
 
-/* 設定導覽列 a (連結) 的 hover 效果 */
+/* 設定導覽列 a (連結) 的 hover (懸停) 效果 */
 nav ul li a:hover {
-    color: #66B3FF; /* 滑鼠移過時，文字顏色變為淡藍色 */
+    color: #2F7D63; /* 滑鼠移過時，文字顏色變為深薄荷綠色 */
 }
 
 /* 設定新聞區塊的樣式 */
@@ -61,7 +71,7 @@ nav ul li a:hover {
     background-color: #f8f9fa; /* 背景顏色為淺灰色 */
     padding: 20px; /* 內邊距為 20px */
     border-radius: 10px; /* 邊框圓角為 10px */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* 設定陰影效果 */
+    box-shadow: 4px 4px 10px #D6C4B1; /* 設定陰影效果 */
     margin: 20px auto; /* 上下外邊距為 20px，左右自動調整（置中） */
     width: 80%; /* 寬度為 80% */
     text-align: center; /* 文字置中對齊 */
