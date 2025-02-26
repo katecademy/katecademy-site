@@ -28,8 +28,9 @@ p {
 
 /* 設定導覽列 nav 的樣式 */
 nav {
-    background-color: #F4F1E3; /* 背景顏色為柔和的米白色 */
+    background-color: #F4F1E3; /* 背景顏色為米白色 */
     padding: 10px 0; /* 上下內邊距為 10px，左右內邊距為 0 */
+    border-radius: 10px; /* 邊框圓角為 10px */
 }
 
 /* 設定導覽列 ul 的樣式 */
@@ -49,7 +50,7 @@ nav ul li {
 /* 設定導覽列 a (連結) 的樣式 */
 nav ul li a {
     text-decoration: none; /* 移除超連結的底線 */
-    color: #FAF3E0; /* 文字顏色為杏色 */
+    color: #5A6B4E; /* 文字顏色為深抹茶綠色 */
     font-size: 18px; /* 文字大小為 18px */
 }
 
@@ -63,14 +64,14 @@ nav ul li a {
 
 /* 設定導覽列 a (連結) 的 hover (懸停) 效果 */
 nav ul li a:hover {
-    color: #2F7D63; /* 滑鼠移過時，文字顏色變為深薄荷綠色 */
+    color: #8B5A4B; /* 滑鼠移過時，文字顏色變為紅豆色 */
 }
 
 /* 設定新聞區塊的樣式 */
 .news {
-    background-color: #f8f9fa; /* 背景顏色為淺灰色 */
+    background-color: #F4F1E3; /* 背景顏色為米白色 */
     padding: 20px; /* 內邊距為 20px */
-    border-radius: 10px; /* 邊框圓角為 10px */
+    border-radius: 15px; /* 邊框圓角為 15px */
     box-shadow: 4px 4px 10px #D6C4B1; /* 設定陰影效果 */
     margin: 20px auto; /* 上下外邊距為 20px，左右自動調整（置中） */
     width: 80%; /* 寬度為 80% */
@@ -79,7 +80,7 @@ nav ul li a:hover {
 
 /* 設定新聞區塊標題 h2 的樣式 */
 .news h2 {
-    color: #40322d; /* 文字顏色為深棕色 */
+    color: #8B5A4B; /* 文字顏色為紅豆色 */
 }
 
 /* 設定新聞區塊 ul 的樣式 */
@@ -92,6 +93,7 @@ nav ul li a:hover {
 .news ul li {
     font-size: 18px; /* 文字大小為 18px */
     margin: 10px 0; /* 上下外邊距為 10px */
+    color: #6F7755; /* 文字顏色為較淺的抹茶綠 */
 }
 
 /* 設定關於內容區塊和聯絡表單容器的樣式 */
