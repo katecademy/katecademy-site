@@ -145,7 +145,7 @@ button:hover,
     background: #8B5A4B; /* 滑鼠移過時，背景顏色變為紅豆色 */
 }
 
-/* 設定表單標題 h2 的樣式 */
+/* 設定表單標題 h2 的樣式 ？沒看出來這是哪裡的h2 */
 h2 {
     color: #8B5A4B; /* 文字顏色為紅豆色 */
     text-align: center; /* 文字置中對齊 */
@@ -174,7 +174,7 @@ h2 {
 
 /* 標題樣式 */
 .info-box h3 {
-    color: #BFAF92; /* 紅豆色標題 */
+    color: #8B5A4B; /* 紅豆色標題 */
     margin-bottom: 10px;
 }
 
@@ -201,7 +201,7 @@ h2 {
 
 /* 每個類別標題 */
 .course-category h2 {
-    color: #BFAF92; /* 文字顏色為奶茶色 */
+    color: #CD568E; /* 文字顏色為深粉色 */
     font-size: 24px;
     margin-top: 20px;
     border-bottom: 2px solid #40322d;
