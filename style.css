@@ -23,7 +23,7 @@ h3 {
 
 /* 設定 p 段落的樣式 */
 p {
-    color: #3E3E3E; /* 文字顏色為深灰色 */
+    color: #6F7755; /* 文字顏色為較淺的抹茶綠 */
 }
 
 /* 設定導覽列 nav 的樣式 */
@@ -102,6 +102,7 @@ nav ul li a:hover {
     text-align: center; /* 文字置中對齊 */
     margin: 30px auto; /* 上下外邊距為 30px，左右自動調整（置中） */
     max-width: 80%; /* 最大寬度為 80% */
+    background-color: #F4F1E3; /* 背景顏色為米白色 */
 }
 
 /* 設定關於圖片的樣式 */
@@ -129,8 +130,8 @@ textarea,
 /* 設定按鈕的樣式 */
 button,
 .contact-form button {
-    background: #2E7D32; /* 背景顏色為深綠色 */
-    color: white; /* 文字顏色為白色 */
+    background: #5A6B4E; /* 背景顏色為深抹茶綠 */
+    color: #F4F1E3; /* 文字顏色為米白色 */
     padding: 12px 20px; /* 內邊距為 12px (上下) 20px (左右) */
     border: none; /* 移除邊框 */
     border-radius: 5px; /* 邊框圓角為 5px */
@@ -142,12 +143,12 @@ button,
 /* 設定按鈕 hover 效果 */
 button:hover,
 .contact-form button:hover {
-    background: #45a049; /* 滑鼠移過時，背景顏色變為稍淺的綠色 */
+    background: #8B5A4B; /* 滑鼠移過時，背景顏色變為紅豆色 */
 }
 
 /* 設定表單標題 h2 的樣式 */
 h2 {
-    color: #8B5E3C; /* 文字顏色為棕色 */
+    color: #8B5A4B; /* 文字顏色為紅豆色 */
     text-align: center; /* 文字置中對齊 */
     margin-bottom: 15px; /* 下方外邊距為 15px */
 }
@@ -166,16 +167,15 @@ h2 {
 /* 個別區塊樣式 */
 .info-box {
     flex: 1;
-    background: #F9F9F9; /* 淺灰色背景，讓區塊更明顯 */
+    background: #F4F1E3; /* 米白色背景，讓區塊更明顯 */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
-    border-left: 5px solid #8B5E3C; /* 棕色邊框 */
 }
 
 /* 標題樣式 */
 .info-box h3 {
-    color: #006000; /* 綠色標題 */
+    color: #5A6B4E; /* 深抹茶綠標題 */
     margin-bottom: 10px;
 }
 
@@ -183,7 +183,7 @@ h2 {
 .info-box ul {
     list-style-type: disc;
     padding-left: 20px;
-    color: #5d3e3f; /* 文字顏色為棕色 */
+    color: #6F7755; /* 文字顏色為淺抹茶綠 */
     text-align: left; /* 文字置左對齊 */
 }
 
