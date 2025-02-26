@@ -1,24 +1,24 @@
 /* 設定 body 的基本樣式 */
 body {
-    font-family: Noto Sans, Arial; /* 使用 Noto Sans 字體，若 Noto Sans 不可用則使用 Arial */
-    background-color: #f5f5f5; /* 背景顏色為淺灰色 */
+    font-family: Arial, sans-serif; /* 使用 Arial 字體，若 Arial 不可用則使用 sans-serif */
+    background-color: #D5D1B1; /* 背景顏色為抹茶便便綠色 */
     text-align: center; /* 文字置中對齊 */
     padding: 20px; /* 設定內邊距，上下左右皆為 20px */
 }
 
 /* 設定 h1 標題的樣式 */
 h1 {
-    color: #2F7D63; /* 文字顏色為深薄荷綠色 */
+    color: #5A6B4E; /* 文字顏色為深抹茶綠色 */
 }
 
 /* 設定 h2 標題的樣式 */
 h2 {
-    color: #4BAA90; /* 文字顏色為淡薄荷綠色 */
+    color: #8B5A4B; /* 文字顏色為紅豆色 */
 }
 
 /* 設定 h3 標題的樣式 */
 h3 {
-    color: #A38E7C; /* 文字顏色為淡棕色 */
+    color: #BFAF92; /* 文字顏色為奶茶色 */
 }
 
 /* 設定 p 段落的樣式 */
@@ -28,7 +28,7 @@ p {
 
 /* 設定導覽列 nav 的樣式 */
 nav {
-    background-color: #5A3E2B; /* 背景顏色為柔和的深棕色 */
+    background-color: #F4F1E3; /* 背景顏色為柔和的米白色 */
     padding: 10px 0; /* 上下內邊距為 10px，左右內邊距為 0 */
 }
 
