@@ -198,7 +198,7 @@ button:hover, .contact-form button:hover {
 }
 
 .notice-box {
-    min-width: 580px; /* 設定最小寬度 */
+    flex-basis: 580px; /* 設定初始寬度 */
     background-color: #F4F1E3;
     padding: 20px;
     border-radius: 10px;
