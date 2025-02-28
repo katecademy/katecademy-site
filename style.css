@@ -198,7 +198,8 @@ button:hover, .contact-form button:hover {
 }
 
 .notice-box {
-    flex-basis: 580px; /* 設定初始寬度 */
+    flex-basis: 48%; /* 調整初始寬度 */
+    box-sizing: border-box; /* 設定 box-sizing */
     background-color: #F4F1E3;
     padding: 20px;
     border-radius: 10px;
@@ -217,4 +218,11 @@ button:hover, .contact-form button:hover {
     margin-bottom: 10px;
     color: #3C3C3C;
     text-align: left;
+}
+
+/* 媒體查詢：螢幕寬度小於 768px 時應用 */
+@media (max-width: 768px) {
+    .notice-box {
+        flex-basis: 100%; /* 佔據整個寬度 */
+    }
 }
