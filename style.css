@@ -1,316 +1,84 @@
-/* 設定 body 的基本樣式 */
+:root {
+    --primary-color: #4682b4; /* 主色調：藍色 */
+    --secondary-color: #f8f8f8; /* 背景色 */
+    --text-color: #333; /* 主要文字顏色 */
+    --border-color: #ddd; /* 邊框顏色 */
+    --hover-color: #5a9bd6; /* 滑鼠懸停顏色 */
+}
+
+/* 全域設定 */
 body {
-    font-family: Arial, sans-serif; /* 使用 Arial 字體，若 Arial 不可用則使用 sans-serif */
-    background-color: #D5D1B1; /* 背景顏色為抹茶便便綠色 */
-    text-align: center; /* 文字置中對齊 */
-    padding: 20px; /* 設定內邊距，上下左右皆為 20px */
+    font-family: 'Arial', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
 }
 
-/* 設定 h1 標題的樣式 */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* 標題樣式 */
+h1, h2, h3 {
+    font-weight: bold;
+}
+
 h1 {
-    color: #5A6B4E; /* 文字顏色為深抹茶綠色 */
+    color: var(--primary-color);
+    font-size: 2em;
+    text-align: center;
 }
 
-/* 設定 h2 標題的樣式 */
 h2 {
-    color: #8B5A4B; /* 文字顏色為紅豆色 */
-}
-
-/* 設定 h3 標題的樣式 */
-h3 {
-    color: #BFAF92; /* 文字顏色為奶茶色 */
-}
-
-/* 設定 p 段落的樣式 */
-p {
-    color: #8F0F33; /* 文字顏色為暗紅 */
-}
-
-/* 設定導覽列 nav 的樣式 */
-nav {
-    background-color: #F4F1E3; /* 背景顏色為米白色 */
-    padding: 10px 0; /* 上下內邊距為 10px，左右內邊距為 0 */
-    border-radius: 10px; /* 邊框圓角為 10px */
-}
-
-/* 設定導覽列 ul 的樣式 */
-nav ul {
-    list-style: none; /* 移除列表符號 */
-    padding: 0; /* 移除內邊距 */
-    margin: 0; /* 移除外邊距 */
-    text-align: center; /* 文字置中對齊 */
-}
-
-/* 設定導覽列 li 的樣式 */
-nav ul li {
-    display: inline; /* 將 li 元素水平排列 */
-    margin: 0 15px; /* 左右外邊距為 15px */
-}
-
-/* 設定導覽列 a (連結) 的樣式 */
-nav ul li a {
-    text-decoration: none; /* 移除超連結的底線 */
-    color: #5A6B4E; /* 文字顏色為深抹茶綠色 */
-    font-size: 18px; /* 文字大小為 18px */
-}
-
-/* 設定橫幅圖片的樣式 */
-.banner {
-    width: 100%; /* 寬度為 100% */
-    max-height: 300px; /* 最大高度為 300px */
-    object-fit: cover; /* 圖片等比例縮放以填滿容器，可能會裁切部分圖片 */
-    display: block; /* 讓圖片以 block 元素顯示，避免下方元素產生間隙 */
-}
-
-/* 設定導覽列 a (連結) 的 hover (懸停) 效果 */
-nav ul li a:hover {
-    color: #8B5A4B; /* 滑鼠移過時，文字顏色變為紅豆色 */
-}
-
-/* 設定新聞區塊的樣式 */
-.news {
-    background-color: #F4F1E3; /* 背景顏色為米白色 */
-    padding: 20px; /* 內邊距為 20px */
-    border-radius: 15px; /* 邊框圓角為 15px */
-    box-shadow: 4px 4px 10px #D6C4B1; /* 設定陰影效果 */
-    margin: 20px auto; /* 上下外邊距為 20px，左右自動調整（置中） */
-    width: 80%; /* 寬度為 80% */
-    text-align: center; /* 文字置中對齊 */
-}
-
-/* 設定新聞區塊標題 h2 的樣式 */
-.news h2 {
-    color: #8B5A4B; /* 文字顏色為紅豆色 */
-}
-
-/* 設定新聞區塊 ul 的樣式 */
-.news ul {
-    list-style: none; /* 移除列表符號 */
-    padding: 0; /* 移除內邊距 */
-}
-
-/* 設定新聞區塊 li 的樣式 */
-.news ul li {
-    font-size: 18px; /* 文字大小為 18px */
-    margin: 10px 0; /* 上下外邊距為 10px */
-    color: #6F7755; /* 文字顏色為較淺的抹茶綠 */
-}
-
-/* 設定關於內容區塊和聯絡表單容器的樣式 */
-.about-content,
-.contact-form {
-    text-align: center; /* 文字置中對齊 */
-    margin: 30px auto; /* 上下外邊距為 30px，左右自動調整（置中） */
-    max-width: 80%; /* 最大寬度為 80% */
-}
-
-/* 設定關於圖片的樣式 */
-.about-img {
-    width: 150px; /* 寬度為 150px */
-    border-radius: 50%; /* 邊框圓角為 50%，使圖片變為圓形 */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* 設定陰影效果 */
-    margin-bottom: 20px; /* 下方外邊距為 20px */
-}
-
-/* 設定輸入框和文字區域的樣式 */
-input,
-textarea,
-.contact-form input,
-.contact-form textarea {
-    width: 100%; /* 寬度為 100% */
-    padding: 10px; /* 內邊距為 10px */
-    margin: 10px 0; /* 上下外邊距為 10px */
-    border: 1px solid #ccc; /* 邊框顏色為淺灰色 */
-    border-radius: 5px; /* 邊框圓角為 5px */
-    font-size: 16px; /* 文字大小為 16px */
-    transition: border-color 0.3s; /* 邊框顏色變換的過渡效果 */
-}
-
-/* 設定按鈕的樣式 */
-button,
-.contact-form button {
-    background: #5A6B4E; /* 背景顏色為深抹茶綠 */
-    color: #F4F1E3; /* 文字顏色為米白色 */
-    padding: 12px 20px; /* 內邊距為 12px (上下) 20px (左右) */
-    border: none; /* 移除邊框 */
-    border-radius: 5px; /* 邊框圓角為 5px */
-    cursor: pointer; /* 滑鼠游標變為手指形狀 */
-    font-size: 16px; /* 文字大小為 16px */
-    transition: background 0.3s; /* 背景顏色變換的過渡效果 */
-}
-
-/* 設定按鈕 hover 效果 */
-button:hover,
-.contact-form button:hover {
-    background: #8B5A4B; /* 滑鼠移過時，背景顏色變為紅豆色 */
-}
-
-/* 設定表單標題 h2 的樣式 ？沒看出來這是哪裡的h2 */
-h2 {
-    color: #8B5A4B; /* 文字顏色為紅豆色 */
-    text-align: center; /* 文字置中對齊 */
-    margin-bottom: 15px; /* 下方外邊距為 15px */
-}
-
-/* 讓兩個區塊一左一右 */
-.info-section {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    color: var(--primary-color);
+    font-size: 1.5em;
     margin-top: 20px;
-    max-width: 80%;  /* 限制最大寬度，讓它不會超出 */
-    margin-left: auto;
-    margin-right: auto;  /* 讓整個區塊置中 */
 }
 
-/* 個別區塊樣式 */
-.info-box {
-    flex: 1;
-    background: #F4F1E3; /* 米白色背景，讓區塊更明顯 */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+/* 按鈕樣式 */
+.button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
-/* 標題樣式 */
-.info-box h3 {
-    color: #8B5A4B; /* 紅豆色標題 */
-    margin-bottom: 10px;
+.button:hover {
+    background-color: var(--hover-color);
 }
 
-/* 列表樣式 */
-.info-box ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    color: #6F7755; /* 文字顏色為淺抹茶綠 */
-    text-align: left; /* 文字置左對齊 */
-}
-
-/* 文字樣式 */
-.info-box p {
-    line-height: 1.6;
-    text-align: center; /* 文字置中對齊 */
-}
-
-/* 整體課程區塊容器 */
-.courses-container {
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 20px;
-}
-
-/* 每個類別標題 */
-.course-category h2 {
-    color: #CD568E; /* 文字顏色為深粉色 */
-    font-size: 24px;
+/* 表格樣式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
     margin-top: 20px;
-    border-bottom: 2px solid #40322d;
-    padding-bottom: 5px;
 }
 
-/* 讓課程卡片可以並排 */
-.course-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-    margin-top: 15px;
+table, th, td {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    text-align: left;
 }
 
-/* 課程卡片樣式 */
-.course-card {
-    background: #F4F1E3;
-    border-radius: 12px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    flex: 1;
-    min-width: 280px;
-    max-width: 320px;
+th {
+    background-color: var(--primary-color);
+    color: white;
 }
 
-/* 課程卡片標題 */
-.course-card h3 {
-    color: #8B5A4B; /* 紅豆色標題 */
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-/* 課程卡片內的列表 */
-.course-card ul {
-    color: #6F7755; /* 淺抹茶綠文字 */
-    text-align: left; /* 文字置左對齊 */
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-/* 確保小螢幕時會換行 */
+/* 響應式設計 */
 @media (max-width: 768px) {
-    .course-grid {
-        flex-direction: column;
-        align-items: center;
+    .container {
+        width: 95%;
     }
-}
-
-/* 上課須知區塊樣式 */
-.class-guidelines {
-    /* 設定背景顏色與邊距 */
-    background-color: #f9f9f9; /* 淺灰背景提升可讀性 */
-    padding: 20px; /* 內距，讓內容不貼邊 */
-    border-radius: 8px; /* 圓角邊框，讓區塊更柔和 */
-    border: 1px solid #ddd; /* 淺灰色邊框，提升層次感 */
-    max-width: 600px; /* 最大寬度，確保內容不會太寬 */
-    margin: 20px auto; /* 置中顯示 */
-}
-
-/* 標題樣式 */
-.class-guidelines h2 {
-    /* 文字設定 */
-    font-size: 24px; /* 字體大小 */
-    font-weight: bold; /* 加粗標題 */
-    text-align: center; /* 置中顯示 */
-    color: #333; /* 深色字體，增加對比 */
-    margin-bottom: 15px; /* 與清單的距離 */
-}
-
-.class-guidelines h3 {
-    /* 文字設定 */
-    font-size: 21px; /* 字體大小 */
-    font-weight: bold; /* 加粗標題 */
-    text-align: center; /* 置中顯示 */
-    color: #8B5A4B; /* 深色字體，增加對比 */
-    margin-bottom: 15px; /* 與清單的距離 */
-}
-
-.class-guidelines p {
-    /* 文字設定 */
-    text-align: left; /* 置左顯示 */
-    margin-bottom: 15px; /* 與清單的距離 */
-    max-width: 800px; /* 限制最大寬度，避免行寬過長 */
-}
-
-/* 規則清單樣式 */
-.class-guidelines ul {
-    /* 移除預設內距與符號 */
-    list-style-type: none; /* 移除圓點符號 */
-    padding: 0; /* 清除內距 */
-    text-align: left; /* 置左顯示 */
-}
-
-.class-guidelines li {
-    /* 文字與間距設定 */
-    font-size: 16px; /* 文字大小適中 */
-    color: #555; /* 文字顏色比標題淺一點，降低對比壓力 */
-    margin-bottom: 10px; /* 每個規則之間的間距 */
-    padding-left: 20px; /* 增加內縮感，讓文字更易讀 */
-    position: relative; /* 用來放置圖示或裝飾 */
-}
-
-/* 規則清單前加上虛擬圖示 */
-.class-guidelines li::before {
-    content: "\2022"; /* 使用 Unicode 圓點符號 */
-    color: #27ae60; /* 綠色圓點，增強識別性 */
-    font-weight: bold; /* 加粗 */
-    display: inline-block; /* 確保對齊 */
-    width: 15px; /* 調整對齊距離 */
-    margin-left: -15px; /* 確保圓點對齊開頭 */
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
 }
