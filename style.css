@@ -190,9 +190,10 @@ button:hover, .contact-form button:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
+    gap: 40px; /* 增加區塊間隔 */
+    max-width: 1200px; /* 調整最大寬度 */
+    margin: 20px auto; /* 增加上下外邊距 */
+    padding: 0px 40px; /* 增加左右內邊距 */
 }
 
 .notice-box {
