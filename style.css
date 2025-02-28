@@ -1,3 +1,4 @@
+// 以下是全域設定。
 :root {
     --primary-color: #4682b4; /* 主色調：藍色 */
     --secondary-color: #f8f8f8; /* 背景色 */
@@ -81,4 +82,70 @@ th {
     h2 {
         font-size: 1.3em;
     }
+}
+
+/* 設定導覽列 nav 的樣式 */
+nav {
+    background-color: #F4F1E3; /* 背景顏色為米白色 */
+    padding: 10px 0; /* 上下內邊距為 10px，左右內邊距為 0 */
+    border-radius: 10px; /* 邊框圓角為 10px */
+}
+
+// 以下也是全域（但僅限導覽列）的設定。
+/* 設定導覽列 ul 的樣式 */
+nav ul {
+    list-style: none; /* 移除列表符號 */
+    padding: 0; /* 移除內邊距 */
+    margin: 0; /* 移除外邊距 */
+    text-align: center; /* 文字置中對齊 */
+}
+
+/* 設定導覽列 li 的樣式 */
+nav ul li {
+    display: inline; /* 將 li 元素水平排列 */
+    margin: 0 15px; /* 左右外邊距為 15px */
+}
+
+/* 設定導覽列 a (連結) 的樣式 */
+nav ul li a {
+    text-decoration: none; /* 移除超連結的底線 */
+    color: #5A6B4E; /* 文字顏色為深抹茶綠色 */
+    font-size: 18px; /* 文字大小為 18px */
+}
+
+/* 設定導覽列 a (連結) 的 hover (懸停) 效果 */
+nav ul li a:hover {
+    color: #8B5A4B; /* 滑鼠移過時，文字顏色變為紅豆色 */
+}
+
+// 以下是首頁的設定。
+/* 設定橫幅圖片的樣式 */
+.banner {
+    width: 100%; /* 寬度為 100% */
+    max-height: 300px; /* 最大高度為 300px */
+    object-fit: cover; /* 圖片等比例縮放以填滿容器，可能會裁切部分圖片 */
+    display: block; /* 讓圖片以 block 元素顯示，避免下方元素產生間隙 */
+}
+
+/* 設定新聞區塊的樣式 */
+.news {
+    background-color: #F4F1E3; /* 背景顏色為米白色 */
+    padding: 20px; /* 內邊距為 20px */
+    border-radius: 15px; /* 邊框圓角為 15px */
+    box-shadow: 4px 4px 10px #D6C4B1; /* 設定陰影效果 */
+    margin: 20px auto; /* 上下外邊距為 20px，左右自動調整（置中） */
+    width: 80%; /* 寬度為 80% */
+    text-align: center; /* 文字置中對齊 */
+}
+/* 設定新聞區塊 ul 的樣式 */
+.news ul {
+    list-style: none; /* 移除列表符號 */
+    padding: 0; /* 移除內邊距 */
+}
+
+/* 設定新聞區塊 li 的樣式 */
+.news ul li {
+    font-size: 18px; /* 文字大小為 18px */
+    margin: 10px 0; /* 上下外邊距為 10px */
+    color: #6F7755; /* 文字顏色為較淺的抹茶綠 */
 }
