@@ -4,7 +4,7 @@ body {
     background-color: #D5D1B1;
     text-align: center;
     padding: 20px;
-    color: #801A00; /* 段落文字顏色 */
+    color: #6F7755; /* 段落文字顏色 */
 }
 
 /* 標題樣式 */
@@ -212,4 +212,5 @@ button:hover, .contact-form button:hover {
 
 .notice-box li {
     margin-bottom: 10px;
+    color: #3C3C3C;
 }
