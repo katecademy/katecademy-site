@@ -205,6 +205,10 @@ button:hover, .contact-form button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.notice-box p {
+    text-align: left;
+}
+
 .notice-box ul {
     padding-left: 20px;
 }
@@ -212,4 +216,5 @@ button:hover, .contact-form button:hover {
 .notice-box li {
     margin-bottom: 10px;
     color: #3C3C3C;
+    text-align: left;
 }
