@@ -155,7 +155,6 @@ button:hover, .contact-form button:hover {
 }
 
 .course-category h2 {
-    color: #CD568E;
     font-size: 24px;
     margin-top: 20px;
     border-bottom: 2px solid #40322d;
@@ -181,7 +180,6 @@ button:hover, .contact-form button:hover {
 }
 
 .course-card ul {
-    color: #6F7755;
     text-align: left;
     list-style-type: disc;
     padding-left: 20px;
