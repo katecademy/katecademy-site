@@ -4,13 +4,13 @@ body {
     background-color: #D5D1B1;
     text-align: center;
     padding: 20px;
-    color: #8F0F33; /* 段落文字顏色 */
+    color: #801A00; /* 段落文字顏色 */
 }
 
 /* 標題樣式 */
 h1 { color: #5A6B4E; }
 h2 { color: #8B5A4B; }
-h3 { color: #BFAF92; }
+h3 { color: #A69A80; }
 
 /* 導覽列樣式 */
 nav {
@@ -144,7 +144,7 @@ button:hover, .contact-form button:hover {
 
 .info-box p {
     line-height: 1.6;
-    text-align: center;
+    text-align: left;
 }
 
 /* 課程區塊樣式 */
