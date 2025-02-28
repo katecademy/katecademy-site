@@ -194,11 +194,11 @@ button:hover, .contact-form button:hover {
     max-width: 1200px; /* 調整最大寬度 */
     margin: 20px auto; /* 增加上下外邊距 */
     padding: 0px 40px; /* 增加左右內邊距 */
+    align-items: flex-start;
 }
 
 .notice-box {
-    flex: 1;
-    min-width: 300px;
+    min-width: 580px;
     background-color: #F4F1E3;
     padding: 20px;
     border-radius: 10px;
