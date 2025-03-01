@@ -222,8 +222,12 @@ button:hover, .contact-form button:hover {
 
 /* 媒體查詢：螢幕寬度小於 768px 時應用 */
 @media (max-width: 768px) {
-    .notice-box {
+    .notice-container  {
         flex-basis: 100%; /* 佔據整個寬度 */
+    }
+    
+    .notice-box {
+        flex-basis: 40%; /* 佔據40%寬度 */
     }
 
     nav ul li {
