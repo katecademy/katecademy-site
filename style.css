@@ -227,7 +227,7 @@ button:hover, .contact-form button:hover {
     }
     
     .notice-box {
-        flex-basis: 40%; /* 佔據40%寬度 */
+        flex-basis: 30%; /* 佔據30%寬度 */
     }
 
     nav ul li {
