@@ -225,4 +225,15 @@ button:hover, .contact-form button:hover {
     .notice-box {
         flex-basis: 100%; /* 佔據整個寬度 */
     }
+
+    nav ul li {
+        display: block; /* 改為垂直排列 */
+        margin: 10px 0; /* 調整間距 */
+    }
+
+    nav ul li a {
+        font-size: 16px; /* 調整字體大小 */
+    }
+
+    /* 在這裡添加其他您希望在小螢幕上應用的樣式 */
 }
