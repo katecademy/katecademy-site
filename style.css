@@ -206,10 +206,6 @@ button:hover, .contact-form button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* 當 .notice-box 是最後一個，且 box 數量為奇數時，讓它佔滿整行 */
-.notice-box:nth-last-child(1):nth-child(odd) {
-    flex-basis: 100%;
-
 .notice-box p {
     text-align: left;
 }
