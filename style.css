@@ -223,7 +223,7 @@ button:hover, .contact-form button:hover {
 .index-button-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 15px;
 }
 
 .index-button {
@@ -231,7 +231,7 @@ button:hover, .contact-form button:hover {
     flex-basis: auto; /* 移除初始寬度 */
     box-sizing: border-box; /* 設定 box-sizing */
     background-color: #F4F1E3;
-    padding: 20px;
+    padding: 20px 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
