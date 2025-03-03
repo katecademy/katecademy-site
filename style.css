@@ -228,7 +228,7 @@ button:hover, .contact-form button:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 }
 
 .index-button {
@@ -237,6 +237,10 @@ button:hover, .contact-form button:hover {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* 讓寬度根據內容變化 */
+    max-width: 100%; /* 防止超出容器 */
+    padding: 10px 20px; /* 增加內邊距，使按鈕不會太窄 */
+    white-space: nowrap; /* 防止文字換行 */
 }
 
 /* 媒體查詢：螢幕寬度小於 768px 時應用 */
