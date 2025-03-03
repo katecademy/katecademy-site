@@ -229,6 +229,10 @@ button:hover, .contact-form button:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0px 40px;
+    align-items: flex-start;
 }
 
 .index-button {
