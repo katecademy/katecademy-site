@@ -224,13 +224,14 @@ button:hover, .contact-form button:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    justify-content: center;
 }
 
 .index-button {
     flex-basis: auto;
     box-sizing: border-box;
     background-color: #F4F1E3;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
