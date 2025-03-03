@@ -228,14 +228,11 @@ button:hover, .contact-form button:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0px 40px;
-    align-items: flex-start;
+    gap: 40px;
 }
 
 .index-button {
+    flex-basis: 48%; /* 調整初始寬度 */
     box-sizing: border-box; /* 設定 box-sizing */
     background-color: #F4F1E3;
     padding: 20px;
@@ -243,10 +240,6 @@ button:hover, .contact-form button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.index-button p {
-    text-align: left;
-}
-    
 /* 媒體查詢：螢幕寬度小於 768px 時應用 */
 @media (max-width: 768px) {
     .notice-container  {
