@@ -226,16 +226,17 @@ button:hover, .contact-form button:hover {
 
 .index-button-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
 }
 
 .index-button {
-    flex-basis: 48%; /* 調整初始寬度 */
     box-sizing: border-box; /* 設定 box-sizing */
     background-color: #F4F1E3;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* 媒體查詢：螢幕寬度小於 768px 時應用 */
