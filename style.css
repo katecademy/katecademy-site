@@ -227,7 +227,8 @@ button:hover, .contact-form button:hover {
 }
 
 .index-button {
-    flex-basis: 48%; /* 調整初始寬度 */
+    flex-grow: 1; /* 讓元素平均分配剩餘空間 */
+    flex-basis: auto; /* 移除初始寬度 */
     box-sizing: border-box; /* 設定 box-sizing */
     background-color: #F4F1E3;
     padding: 20px;
